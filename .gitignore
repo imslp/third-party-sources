@@ -1,0 +1,5 @@
+.DS_Store
+*.bak.*
+*.zip
+*.tar.gz
+*.tar.xz
