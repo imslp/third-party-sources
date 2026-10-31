@@ -8,11 +8,12 @@ Download the source bundle that matches the version identified by your app's **O
 
 | Bundle                                                                                                                                 | Main components                                                                                     | Downloads                                                                                                                                                                                                                                                                                                                                  |
 | -------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [MusicXML and UniFFI — 2026-10-31](https://github.com/imslp/third-party-sources/releases/tag/imslp-musicxml-uniffi-sources-2026-10-31) | Verovio 6.3.0, FluidSynth 2.6.0, GeneralUser GS 2.0.3, UniFFI 0.28.3, and accompanying dependencies | [Source ZIP](https://github.com/imslp/third-party-sources/releases/download/imslp-musicxml-uniffi-sources-2026-10-31/imslp-musicxml-uniffi-sources-2026-10-31.zip) · [SHA256](https://github.com/imslp/third-party-sources/releases/download/imslp-musicxml-uniffi-sources-2026-10-31/imslp-musicxml-uniffi-sources-2026-10-31.zip.sha256) |
 | [MusicXML and UniFFI — 2026-10-30](https://github.com/imslp/third-party-sources/releases/tag/imslp-musicxml-uniffi-sources-2026-10-30) | Verovio 6.3.0, FluidSynth 2.6.0, GeneralUser GS 2.0.3, UniFFI 0.28.3, and accompanying dependencies | [Source ZIP](https://github.com/imslp/third-party-sources/releases/download/imslp-musicxml-uniffi-sources-2026-10-30/imslp-musicxml-uniffi-sources-2026-10-30.zip) · [SHA256](https://github.com/imslp/third-party-sources/releases/download/imslp-musicxml-uniffi-sources-2026-10-30/imslp-musicxml-uniffi-sources-2026-10-30.zip.sha256) |
 
 The MusicXML bundle contains source and build materials for the iOS and Android integration. It includes the original GeneralUser SF2 bank and its license. The optional Debug-only MS Basic bank is not included; its complete notice and pinned download/conversion instructions are included. The UniFFI inventory includes both runtime and build-time crates.
 
-See the [complete manifest](bundles/imslp-musicxml-uniffi-sources-2026-10-30/manifest.json), [rebuild instructions](bundles/imslp-musicxml-uniffi-sources-2026-10-30/README.md), and [archive identity](bundles/imslp-musicxml-uniffi-sources-2026-10-30/publication.json).
+See the [complete manifest](bundles/imslp-musicxml-uniffi-sources-2026-10-31/manifest.json), [rebuild instructions](bundles/imslp-musicxml-uniffi-sources-2026-10-31/README.md), and [archive identity](bundles/imslp-musicxml-uniffi-sources-2026-10-31/publication.json).
 
 FFmpeg sources and build artifacts continue to be distributed separately through [imslp/ffmpeg-kit](https://github.com/imslp/ffmpeg-kit/releases/tag/imslp-v6.0-lgpl-16kb).
 
@@ -23,9 +24,9 @@ Download the named `.zip` and `.zip.sha256` assets from the same release into on
 For the MusicXML and UniFFI bundle above:
 
 ```sh
-shasum -a 256 -c imslp-musicxml-uniffi-sources-2026-10-30.zip.sha256
-unzip imslp-musicxml-uniffi-sources-2026-10-30.zip -d imslp-musicxml-uniffi-sources-2026-10-30
-cd imslp-musicxml-uniffi-sources-2026-10-30
+shasum -a 256 -c imslp-musicxml-uniffi-sources-2026-10-31.zip.sha256
+unzip imslp-musicxml-uniffi-sources-2026-10-31.zip -d imslp-musicxml-uniffi-sources-2026-10-31
+cd imslp-musicxml-uniffi-sources-2026-10-31
 shasum -a 256 -c SHA256SUMS
 ```
 
