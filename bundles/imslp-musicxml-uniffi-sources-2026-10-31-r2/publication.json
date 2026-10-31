@@ -1,0 +1,25 @@
+{
+  "bundleId": "imslp-musicxml-uniffi-sources-2026-10-31-r2",
+  "releaseUrl": "https://github.com/imslp/third-party-sources/releases/tag/imslp-musicxml-uniffi-sources-2026-10-31-r2",
+  "archiveUrl": "https://github.com/imslp/third-party-sources/releases/download/imslp-musicxml-uniffi-sources-2026-10-31-r2/imslp-musicxml-uniffi-sources-2026-10-31-r2.zip",
+  "archiveSha256": "90d99c031913b89bc613e0146a5ee815de432b3ae4405f46b18f4b95e0287ccf",
+  "archiveBytes": 69190597,
+  "components": {
+    "Verovio": "6.3.0",
+    "FluidSynth": "2.6.0-imslp.1",
+    "GeneralUser GS (SoundFont)": "2.0.3",
+    "libsndfile": "1.2.2",
+    "uniffi (Rust crate)": "0.28.3",
+    "uniffi_bindgen (Rust crate)": "0.28.3",
+    "uniffi_build (Rust crate)": "0.28.3",
+    "uniffi_checksum_derive (Rust crate)": "0.28.3",
+    "uniffi_core (Rust crate)": "0.28.3",
+    "uniffi_macros (Rust crate)": "0.28.3",
+    "uniffi_meta (Rust crate)": "0.28.3",
+    "uniffi_testing (Rust crate)": "0.28.3",
+    "uniffi_udl (Rust crate)": "0.28.3",
+    "Signalsmith Linear (bundled in FluidSynth)": "0.3.1",
+    "Signalsmith DSP (bundled in FluidSynth)": "1.7.1",
+    "Signalsmith Hilbert IIR (bundled in FluidSynth)": "1.0.0"
+  }
+}
